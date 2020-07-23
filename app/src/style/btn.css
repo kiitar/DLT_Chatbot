@@ -1,0 +1,54 @@
+.btn_logout{
+  border: none;
+  background: none;
+  color: white;
+}
+.btn_logout:hover{
+  color: blueviolet;
+  font-size: 1em;
+  cursor: pointer;
+}
+.btn_logout:focus {
+  outline: none;
+}
+
+.btn-login{
+  background: rgb(38, 156, 252);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  padding: 15px 0;
+}
+.btn-login:hover{
+  background: rgb(23, 138, 233);
+  cursor: pointer;
+}
+.btn-login:focus {
+  outline: none;
+}
+
+.btn-back{
+  background: rgb(38, 156, 252);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  font-family: "Prompt", sans-serif;
+  float: right;
+}
+.btn-back:hover{
+  background: rgb(23, 138, 233);
+  cursor: pointer;
+}
+.btn-back:focus {
+  outline: none;
+}
+
+.fa-arrow-left{
+  padding: 10px;
+  font-size: 1.2em !important;
+}
+.namebtn-back{
+  padding: 10px 10px;
+}

@@ -1,0 +1,104 @@
+@media screen and (max-width: 480px) {
+  .container-card {
+    background: white;
+    padding: 15px;
+    width: auto !important;
+    box-shadow: 0px 0px 8px #aaaaaa;
+    margin: 10px;
+    font-size: 0.85em;
+    border-radius: 5px;
+    overflow-wrap: break-word;
+  }
+  .card-btn {
+    text-align: right;
+  }
+  .btn-card {
+    background: red;
+    border: none;
+    border-radius: 5px;
+  }
+  .btn-card:hover {
+    cursor: pointer;
+  }
+  .btn-card-size {
+    font-size: 1.5em !important;
+    color: white;
+    padding: 6px;
+  }
+  .data-card-title {
+  }
+  .data-card {
+    line-height: 3em;
+    /* font-weight: bold; */
+    color: #707070;
+  }
+  .data-card-word {
+  }
+}
+.btn-card {
+  background: red;
+  border: none;
+  border-radius: 5px;
+}
+.btn-card:hover {
+  cursor: pointer;
+}
+
+.data-card-title {
+  line-height: 3em;
+  /* font-weight: bold; */
+  color: #707070;
+}
+
+.container-card {
+  background: white;
+  padding: 30px;
+  box-shadow: 0px 0px 8px #aaaaaa;
+  margin: 0 auto;
+  width: 60%;
+  margin-top: 20px;
+  font-size: 0.85em;
+  border-radius: 5px;
+  overflow-wrap: break-word;
+  margin-bottom: 25px;
+}
+.card-btn {
+  text-align: right;
+}
+.btn-card {
+  background: red;
+  border: none;
+  border-radius: 5px;
+}
+.btn-card-size {
+  font-size: 1.5em !important;
+  color: white;
+  padding: 6px;
+}
+.data-card-title {
+}
+.data-card {
+  line-height: 3em;
+  /* font-weight: bold; */
+  color: #707070;
+}
+.bold {
+  font-weight: bold;
+  margin: 10px 0;
+}
+.flex-card {
+  display: flex;
+  align-items: center;
+}
+.massage-card {
+  font-style: italic;
+  margin: 10px 0;
+  background: #f1f1f1;
+  border-radius: 10px;
+  padding: 10px;
+  /* line-height: 4em; */
+  word-wrap: break-word;
+}
+.box-massage-card {
+  display: flex;
+}

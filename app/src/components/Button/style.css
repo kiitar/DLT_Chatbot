@@ -1,0 +1,75 @@
+.btn-open{
+  background: rgb(38, 156, 252);
+  padding: 12px 35px;
+  font-size: 80%;
+  border: none;
+  border-radius: 5px;
+  min-width: 120px;
+  color: white;
+  font-family: "Prompt", sans-serif;
+}
+.btn-open:hover{
+  background: rgb(24, 137, 230);
+  cursor: pointer;
+  box-shadow: 1px 2px 6px rgb(22, 122, 204);
+}
+.btn-open:focus{
+  outline: none;
+}
+
+
+.btn-delete{
+  background: rgb(238, 7, 7);
+  padding: 12px 35px;
+  min-width: 120px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: "Prompt", sans-serif;
+}
+.btn-delete:hover{
+  background: rgb(224, 7, 7);
+  cursor: pointer;
+  box-shadow: 1px 2px 6px rgb(224, 7, 7);
+}
+.btn-delete:focus{
+  outline: none;
+}
+
+.btn-close{
+  background: #999999;
+  padding: 12px 35px;
+  min-width: 120px;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-family: "Prompt", sans-serif;
+}
+.btn-close:hover{
+  background: #888888;
+  cursor: pointer;
+  color: white;
+  box-shadow: 1px 2px 6px #888888;
+}
+.btn-close:focus{
+  outline: none;
+}
+
+.btn-view{
+  background: #ffe135;
+  padding: 12px 35px;
+  min-width: 120px;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-family: "Prompt", sans-serif;
+}
+.btn-view:hover{
+  background: #ebcf30;
+  cursor: pointer;
+  color: black;
+  box-shadow: 1px 2px 6px #ebcf30;
+}
+.btn-view:focus{
+  outline: none;
+}

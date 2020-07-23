@@ -1,0 +1,81 @@
+/* .sidenav {
+  background: #384c61;
+  width: 255px;
+  height: 100vh;
+  z-index: 999;
+  position: fixed;
+} */
+.close-sidenav{
+  display: none;
+}
+
+
+.icon-logo {
+  background: #283640;
+  height: 150px;
+  text-align: center;
+  line-height: 0.5em;
+  color: white
+}
+.logo {
+  width: 100px;
+}
+.name-logo {
+  font-size: 0.7em;
+  line-height: 1.6em;
+}
+.sidenav-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+.nav-container {
+  line-height: 3.5em;
+  list-style-type: none;
+}
+.nav-container:hover {
+  background: #283640;
+  margin: 5px;
+  cursor: pointer;
+  /* transition: 0.2s; */
+}
+.nav-container:active {
+  background: rgb(3, 51, 73);
+  transition: 0.2s;
+}
+.menu {
+  color: #fff;
+  margin: 0 20px;
+  font-size: 85%;
+  /* background: yellow; */
+}
+.active {
+  background-color: #666;
+  color: white;
+}
+.icon_nav {
+  margin-right: 15px;
+  font-size: 1.1em !important;
+}
+.link {
+  text-decoration: none;
+}
+
+.container-select{
+  background: #283640;
+}
+
+.fa-sort-down,.fa-sort-up{
+  float: right;
+  margin: 16px 0;
+}
+.chatbot-menu{
+  padding: 20px;
+}
+.chatbot-menu:hover{
+  /* padding: 25px; */
+  /* transition: 0.5s; */
+  color: #0095ff;
+  cursor: pointer;
+}

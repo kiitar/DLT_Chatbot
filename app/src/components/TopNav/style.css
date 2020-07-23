@@ -1,0 +1,36 @@
+.hamburker{
+  display: none;
+}
+.topnav {
+  background: #384c61;
+  box-shadow: 1px 2px 7px #aaaaaa;
+  height: 50px;
+  display: flex;
+  font-size: 0.85em;
+  color: white;
+}
+.topbar {
+  /* background: yellow; */
+  flex: 7;
+  text-align: right;
+}
+.user {
+  /* background: rosybrown; */
+  flex: 1;
+  height: 30px;
+  margin-top: 10px;
+  border-right: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logout {
+  /* background: yellowgreen; */
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-power-off{
+  margin:  10px;
+}
